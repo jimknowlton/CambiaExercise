@@ -7,7 +7,6 @@ COPY --chown=10:11 ./src/* /src/
 WORKDIR /src
 
 RUN mkdir ./output
-VOLUME /output "c:/output"
 
 RUN echo 'we are running some # of cool things'
 
